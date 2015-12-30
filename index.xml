@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-      <title> on My New Hugo Site </title>
-    <link>http://replace-this-with-your-hugo-site.com/</link>
+      <title> on JesseLucas.io </title>
+    <link>/</link>
     <language>en-us</language>
     <author>Alexander Ivanov</author>
     <updated>2015-12-30 13:10:04 -0500 EST</updated>
     
     <item>
       <title>introducing r</title>
-      <link>http://replace-this-with-your-hugo-site.com/post/introducing-r/</link>
+      <link>/post/introducing-r/</link>
       <pubDate>Wed, 30 Dec 2015 13:10:04 EST</pubDate>
       <author>Alexander Ivanov</author>
-      <guid>http://replace-this-with-your-hugo-site.com/post/introducing-r/</guid>
+      <guid>/post/introducing-r/</guid>
       <description>
 
 &lt;h2 id=&#34;introduction:7e1bef08945da73017ba565015e2ef93&#34;&gt;Introduction&lt;/h2&gt;
@@ -63,10 +63,10 @@ export R_GLOBALHISTORY=100 # total to save for global history
     
     <item>
       <title>about</title>
-      <link>http://replace-this-with-your-hugo-site.com/about/</link>
+      <link>/about/</link>
       <pubDate>Wed, 30 Dec 2015 12:42:11 EST</pubDate>
       <author>Alexander Ivanov</author>
-      <guid>http://replace-this-with-your-hugo-site.com/about/</guid>
+      <guid>/about/</guid>
       <description>
 
 &lt;h2 id=&#34;a-little-about-me:6083a88ee3411b0d17ce02d738f69d47&#34;&gt;A little about me&amp;hellip;&lt;/h2&gt;
