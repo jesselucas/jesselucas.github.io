@@ -1,0 +1,136 @@
+	
+	<!doctype html>
+<html lang="en">
+  <head>    
+    <title>ALEXFINN - introducing r</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+
+    
+    <link href="/css/milk.min.css" rel="stylesheet">
+    <link href="/css/milk-responsive.min.css" rel="stylesheet">     
+    <link href="/css/style.css" rel="stylesheet" type="text/css" media="all">
+    <link href="/css/fonts.css" rel="stylesheet" type="text/css" media="all">
+    <link rel="shortcut icon" href="/images/alexfinn.ico"> 
+    <link rel="apple-touch-icon" href="">
+    <link rel="canonical" href="http://replace-this-with-your-hugo-site.com/post/introducing-r/">
+
+    
+    <link href="/rss.xml" type="application/atom+xml" rel="alternate" title="My New Hugo Site">    
+
+  </head>
+  <body>    
+    <div class="navbar navbar-fixed-top">        
+  <div id="navbar-inner">
+          <div id="logo">
+            <a href=""><img src="/images/letter-a.png" width="100px"></img></a>
+          </div>
+  </div>
+</div>
+
+
+<div class="container">
+  <div class="content">
+    <div class="row-fluid">
+      <div class="span12">
+        <div class="posts">
+      
+
+	    
+	  <div class="post">
+	    <header class="post-header">
+	        <h1><a href="/post/introducing-r/">introducing r</a></h1>
+	        <div class="post-time">December 30 2015</div>
+	    </header>
+	    <div class="post-after">
+	        <div class="tags">
+	            
+	        </div>
+	    </div>
+	    <hr>
+	    <div class="post content">
+	        
+
+<h2 id="introduction:7e1bef08945da73017ba565015e2ef93">Introduction</h2>
+
+<p><a href="https://github.com/jesselucas/r">r</a> is a simple command line tool, for Bash, that stores your command history per directory. I wanted a simple way to keep track of my history and provide context to it. I have to switch projects often and wanted an easy way to see what I was last working on in a certain directory. The hope is <code>r</code> will be a utility I use daily and grow with continued use.</p>
+
+<p>I built <code>r</code> with Go (golang) and store the history with in a <a href="https://github.com/boltdb/bolt">boltdb</a> file in the user&rsquo;s home directory.</p>
+
+<p>View <code>r</code>&rsquo;s <a href="https://github.com/jesselucas/r">source code on github</a></p>
+
+<h2 id="install:7e1bef08945da73017ba565015e2ef93">Install</h2>
+
+<p><code>r</code> requires OS X / Linux and Bash.</p>
+
+<h3 id="homebrew:7e1bef08945da73017ba565015e2ef93">Homebrew:</h3>
+
+<pre><code>brew tap jesselucas/r
+brew install r
+</code></pre>
+
+<h3 id="go:7e1bef08945da73017ba565015e2ef93">Go</h3>
+
+<pre><code>go get -u github.com/jesselucas/r
+r -install which will add .r.sh to home directory and source in .bashrc
+or manually add .r.sh to your .bashrc
+ex. . $GOPATH/src/github.com/jesselucas/r/.r.sh
+</code></pre>
+
+<h2 id="usage:7e1bef08945da73017ba565015e2ef93">Usage</h2>
+
+<p>By default r shows bash history per directory and is sorted by last used. Press <code>tab</code> key to see the history. Or start typing to to <code>tab</code> complete.</p>
+
+<p>You can use the usage flag <code>r -u</code> to see your most used commands per directory.</p>
+
+<p>You can see all history by using the global flag. <code>r -g</code> or see your global most used commands <code>r -g -u</code></p>
+
+<h2 id="environment-variables:7e1bef08945da73017ba565015e2ef93">Environment Variables</h2>
+
+<p>By default <code>r</code> only stores the last 30 commands per directory and the last 100 commands globally. You can change these by exporting the following environment variables:</p>
+
+<pre><code># r settings
+export R_DIRHISTORY=30 # total to save for directory history
+export R_GLOBALHISTORY=100 # total to save for global history
+# export R_SORTBYUSAGE=1 # turn this on to default sorting by usage
+</code></pre>
+
+	    </div>
+	    
+	<div class="about">
+	<p> 
+     
+    </p>
+</div>
+		<nav id="pagination">
+			
+			<a class="next" href="http://replace-this-with-your-hugo-site.com/about/">Next</a>
+		</nav>
+	
+		        <footer>
+		        	Build with <a href="https://github.com/spf13/hugo">Hugo</a> 
+		        	<p>© Alexander Ivanov 2014</p>
+		        </footer>
+		    </div>
+		  </div>    
+		</div>
+      </div>
+    </div>
+</body>
+
+<script type="text/javascript">
+  var _paq = _paq || [];
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u=(("https:" == document.location.protocol) ? "https" : "http") + ":change-me";
+    _paq.push(['setTrackerUrl', u+'piwik.php']);
+    _paq.push(['setSiteId', 4]);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0]; g.type='text/javascript';
+    g.defer=true; g.async=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<noscript><p><img src="http://change-me" style="border:0;" alt="" /></p></noscript>
+
+
+</html>

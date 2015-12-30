@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-      <title> on My New Hugo Site </title>
-    <link>http://replace-this-with-your-hugo-site.com/</link>
+      <title>Posts on My New Hugo Site </title>
+    <link>http://replace-this-with-your-hugo-site.com/post/</link>
     <language>en-us</language>
     <author>Alexander Ivanov</author>
     <updated>2015-12-30 13:10:04 -0500 EST</updated>
@@ -58,18 +58,6 @@ export R_DIRHISTORY=30 # total to save for directory history
 export R_GLOBALHISTORY=100 # total to save for global history
 # export R_SORTBYUSAGE=1 # turn this on to default sorting by usage
 &lt;/code&gt;&lt;/pre&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>about</title>
-      <link>http://replace-this-with-your-hugo-site.com/about/</link>
-      <pubDate>Wed, 30 Dec 2015 12:42:11 EST</pubDate>
-      <author>Alexander Ivanov</author>
-      <guid>http://replace-this-with-your-hugo-site.com/about/</guid>
-      <description>
-
-&lt;h2 id=&#34;a-little-about-me:6083a88ee3411b0d17ce02d738f69d47&#34;&gt;A little about me&amp;hellip;&lt;/h2&gt;
 </description>
     </item>
     
