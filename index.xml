@@ -4,14 +4,14 @@
       <title> on JesseLucas.io </title>
     <link>/</link>
     <language>en-us</language>
-    <author>Alexander Ivanov</author>
+    <author>Jesse Lucas</author>
     <updated>2015-12-30 13:10:04 -0500 EST</updated>
     
     <item>
       <title>introducing r</title>
       <link>/post/introducing-r/</link>
       <pubDate>Wed, 30 Dec 2015 13:10:04 EST</pubDate>
-      <author>Alexander Ivanov</author>
+      <author>Jesse Lucas</author>
       <guid>/post/introducing-r/</guid>
       <description>
 
@@ -65,7 +65,7 @@ export R_GLOBALHISTORY=100 # total to save for global history
       <title>about</title>
       <link>/about/</link>
       <pubDate>Wed, 30 Dec 2015 12:42:11 EST</pubDate>
-      <author>Alexander Ivanov</author>
+      <author>Jesse Lucas</author>
       <guid>/about/</guid>
       <description>
 
